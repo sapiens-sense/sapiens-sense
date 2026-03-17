@@ -1,2 +1,2 @@
-# sapiens-sense.github.io
+# Sapiens Sense
 Bio
