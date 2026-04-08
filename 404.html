@@ -7,7 +7,6 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     
     <style>
-        /* 1. Define the custom font */
         @font-face {
             font-family: 'MyCustomFont';
             src: url('font.ttf') format('truetype');
@@ -22,7 +21,6 @@
             padding: 0;
         }
 
-        /* 2. Layout & Background */
         body {
             font-family: 'MyCustomFont', sans-serif;
             min-height: 100vh;
@@ -41,7 +39,6 @@
             overflow: hidden;
         }
 
-        /* 3. The Glass Card */
         .glass-card {
             background: rgba(0, 0, 0, 0.45); 
             backdrop-filter: blur(12px);
@@ -118,27 +115,11 @@
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 12px;
         }
-        
-        .profile-logo {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.1); opacity: 1; }
-            100% { transform: scale(1); opacity: 0.8; }
-        }
     </style>
 </head>
 <body>
 
     <div class="glass-card">
-        <img src="logo.jpg" alt="Sapiens Sense Logo" class="profile-logo">
         <div class="error-code">404</div>
         
         <header>
